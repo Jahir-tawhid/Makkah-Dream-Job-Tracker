@@ -40,4 +40,7 @@ Make sure you have **Node.js** (v16 or higher) installed.
    ```bash
    git clone [https://github.com/Jahir-tawhid/Makkah-Dream-Job-Tracker.git]
    (https://github.com/Jahir-tawhid/makkah-job-tracker.git)
+   ```
+
+   Live link: https://jahir-tawhid.github.io/Makkah-Dream-Job-Tracker/
    
