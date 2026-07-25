@@ -1,0 +1,153 @@
+/* App.css ফাইল-এর নিচে যুক্ত করুন */
+.job-card-wrapper {
+  position: relative;
+}
+
+.status-container {
+  margin: 10px 0;
+}
+
+.status-label {
+  margin-right: 8px;
+}
+
+/* Container Layout */
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+}
+
+/* Header Styling */
+.app-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+  line-height: 1.3; /* Fixes text overlapping */
+  color: #ffffff;
+}
+
+.job-count {
+  text-align: center;
+  color: #a0aec0;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-container {
+  border: 1px solid #3182ce;
+  background-color: #1a202c;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.form-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #63b3ed;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #4a5568;
+  border-radius: 6px;
+  background-color: #2d3748;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+.form-input::placeholder {
+  color: #a0aec0;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #2b6cb0;
+}
+
+/* Job Card Styling */
+.job-card {
+  border: 1px solid #4a5568;
+  background-color: #1a202c;
+  padding: 18px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.job-card h3 {
+  margin-top: 0;
+  color: #63b3ed;
+}
+
+.job-card p {
+  margin: 6px 0;
+  color: #e2e8f0;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #e53e3e;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  background-color: #c53030;
+}
+
+/* Action buttons alignment */
+.action-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 40px; /* সমান উচ্চতা নিশ্চিত করবে */
+  box-sizing: border-box;
+}
+
+.export-btn {
+  background-color: #319795;
+  color: #ffffff;
+  border: none;
+}
+
+.reset-btn {
+  background-color: #4a5568;
+  color: #e2e8f0;
+  border: 1px solid #718096;
+}
